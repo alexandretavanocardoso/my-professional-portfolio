@@ -1,5 +1,17 @@
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_bodyText.scss';
 
-h1{
-    color: $cor4;
+.card-linkedin{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: $marginDefault;
+    font-size: 30px;
+}
+
+.description{
+    font-size: 17.5px;
+    text-align: justify;
 }

@@ -11,3 +11,9 @@ COMMAND DEFAULT
 - git commit -m ""
 - git push origin master
 - git push heroku master
+
+
+REPOSITORYS
+
+https://dashboard.heroku.com/apps/alexandre-tavano-cardoso/deploy/heroku-git
+https://github.com/alexandretavanocardoso/my-professional-portfolio

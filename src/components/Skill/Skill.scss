@@ -1,5 +1,39 @@
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_bodyText.scss';
 
-h1{
-    color: $cor2;
+.title-component{
+    margin-top: $marginSpaceComponent;    
+    text-align: center;
+    font-size: 35px;
+}
+
+.div-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-skill {
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        object-fit: cover;
+        width: 95px;
+        height: 95px;
+    }
+
+    h4{
+        font-weight: 600;
+        font-size: 20px;
+
+        margin-top: $marginDefault;
+    }
 }

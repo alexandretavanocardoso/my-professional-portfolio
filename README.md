@@ -1,5 +1,5 @@
 # my-portfolio
-- https://my-porfolio-professional.herokuapp.com
+- https://alexandre-tavano-cardoso.herokuapp.com
 
 ## Project setup
 ```
