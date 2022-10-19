@@ -1,6 +1,9 @@
 # my-portfolio
 - https://alexandre-tavano-cardoso.herokuapp.com
 
+# icons
+- https://icons8.com.br/icons/set/scrum
+
 ## Project setup
 ```
 npm install

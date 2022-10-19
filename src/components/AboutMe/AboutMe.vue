@@ -13,7 +13,9 @@
                 Possuo foco em desenvolvimento backend com API, C#, SQL Server. <br />
                 Possuo foco em desenvolvimento frontend usando JavaScript, Jquery, Vue, css e html. <br /> 
                 Para versionamento eu utilizo o Github e o BitBucket. <br />
-                Possuo conhecimento em métodos ágeis(scrum e kanban). 
+                Possuo conhecimento em métodos ágeis(scrum e kanban). <br /><br />
+
+                Github: <a href="https://github.com/alexandretavanocardoso" target="_blank" rel="noopener noreferrer">https://github.com/alexandretavanocardoso</a>
             </p>
         </div>
     </div>

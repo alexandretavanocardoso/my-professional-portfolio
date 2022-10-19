@@ -25,7 +25,7 @@ export default {
             },
             {
                 img: 'https://img.icons8.com/color/144/000000/sass.png',
-                title: 'Scss'
+                title: 'Sass'
             },
             {
                 img: 'https://img.icons8.com/color/144/7950F2/css3.png',
