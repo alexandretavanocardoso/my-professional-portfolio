@@ -1,0 +1,13 @@
+COMMANDS GIT
+git init 
+git remote add origin https://github.com/alexandretavanocardoso/my-professional-portfolio.git
+
+COMMANDS HEROKU
+heroku git:remote -a alexandre-tavano-cardoso
+
+COMMAND DEFAULT
+- npm run buildgi
+- git add .
+- git commit -m ""
+- git push origin master
+- git push heroku master
