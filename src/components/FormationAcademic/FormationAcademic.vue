@@ -1,5 +1,5 @@
 <template>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-top: 120px;">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -61,13 +61,5 @@ export default {
     name: 'FormationAcademicComponent'
 }
 </script>
-
-
-
-
-
-
-
-
 
 <style src="./FormationAcademic.scss" lang="scss" scoped />

@@ -1,7 +1,7 @@
 <template>
-    <div class="div-principal">
+    <div class="div-main">
         <div class="row" v-for="(skill, index) in skills" :key="index">
-            <div class="col-3 card-skill">
+            <div class="col-md-3 card-skill">
                 <img :src="skill.img"/>
                 <h4>{{skill.title}}</h4>
             </div>

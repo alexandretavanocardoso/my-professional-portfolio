@@ -1,7 +1,7 @@
 <template>
-    <div class="div-principal">
+    <div class="div-main">
         <div class="row" v-for="(project, index) in projects" :key="index">
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card card-project">
                     <div class="card-body">
                         <h5 class="card-title">{{project.title}}</h5>

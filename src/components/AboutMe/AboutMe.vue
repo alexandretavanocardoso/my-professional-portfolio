@@ -1,6 +1,6 @@
 <template>
     <div class="row card-background">
-        <div class="col-12">
+        <div class="col-md-12">
             <h2 class="title">Alexandre Tavano Cardoso</h2>
             <p class="description">
                 Me chamo Alexandre Tavano Cardoso, tenho 20 anos, atualmente sou desenvolvedor fullstack, estou sempre
@@ -35,7 +35,7 @@ export default {
         coffe: 0
     }),
     created() {
-        setInterval(this.coffe = Math.floor(Math.random() * 101) + 1, 1000)
+        setInterval(this.coffe = Math.floor(Math.random() * 1000) + 1, 1000)
     }
 }
 </script>
