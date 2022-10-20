@@ -19,7 +19,6 @@ import SkillComponent from '@/components/Skill/Skill.vue'
 import ProjectComponent from '@/components/Project/Project.vue'
 import FormationAcademicComponent from '@/components/FormationAcademic/FormationAcademic.vue'
 import ContactMeComponent from '@/components/ContactMe/ContactMe.vue'
-import FooterComponent from '@/components/_comuns/Footer/Footer.vue'
 
 export default {
     name: 'HomeComponent',
@@ -32,8 +31,7 @@ export default {
         SkillComponent,
         ProjectComponent,
         FormationAcademicComponent,
-        ContactMeComponent,
-        FooterComponent
+        ContactMeComponent
     }
 }
 </script>
