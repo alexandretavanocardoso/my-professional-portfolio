@@ -1,9 +1,6 @@
 <template>
-    <div class="row">
-        <div class="col-4">
-            <div class="badge-base LI-profile-badge card-linkedin" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="alexandretavano" data-version="v1"></div>
-        </div>
-        <div class="col-8">
+    <div class="row card-background">
+        <div class="col">
             <h2 class="title">Alexandre Tavano Cardoso</h2>
             <p class="description">
                 Me chamo Alexandre Tavano Cardoso, tenho 20 anos, atualmente sou desenvolvedor fullstack, estou sempre
@@ -15,7 +12,8 @@
                 Para versionamento eu utilizo o Github e o BitBucket. <br />
                 Possuo conhecimento em métodos ágeis(scrum e kanban). <br /><br />
 
-                Github: <a href="https://github.com/alexandretavanocardoso" target="_blank" rel="noopener noreferrer">https://github.com/alexandretavanocardoso</a>
+                Github: <a href="https://github.com/alexandretavanocardoso" target="_blank" rel="noopener noreferrer">https://github.com/alexandretavanocardoso</a> <br /> 
+                Linkedin: <a href="https://www.linkedin.com/in/alexandretavano/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alexandretavano/</a>
             </p>
         </div>
     </div>

@@ -1,11 +1,10 @@
 <template>
-    <h2 class="title-component">Projetos</h2>
     <div class="div-principal">
         <div class="row" v-for="(project, index) in projects" :key="index">
             <div class="col-4">
                 <div class="card card-project">
                     <div class="card-body">
-                        <h5 class="card-title text-white">{{project.title}}</h5>
+                        <h5 class="card-title">{{project.title}}</h5>
                         <div class="buttons">
                             <a target="_blank" :href="project.linkGit" class="btn btn-primary btn-sm">Github</a>
                             <a target="_blank" :href="project.outherLink" class="btn btn-danger btn-sm"

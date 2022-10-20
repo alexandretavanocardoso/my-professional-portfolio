@@ -1,5 +1,4 @@
 <template>
-    <h2 class="title-component">Habilidades</h2>
     <div class="div-principal">
         <div class="row" v-for="(skill, index) in skills" :key="index">
             <div class="col-3 card-skill">

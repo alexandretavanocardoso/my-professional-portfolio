@@ -1,17 +1,22 @@
 @import '@/assets/scss/_bodyText.scss';
 
-.card-linkedin{
-    display: flex;
-    justify-content: center;
-}
+.card-background {
+    background-color: $backgroundcolorDefault;
+    padding: 25px;
+    border-radius: 25px;
 
-.title{
-    font-weight: bold;
-    margin-bottom: $marginDefault;
-    font-size: 30px;
-}
+    margin-top: 120px;
 
-.description{
-    font-size: 17.5px;
-    text-align: justify;
+    .title {
+        font-weight: bold;
+        margin-bottom: $marginDefault;
+        font-size: 30px;
+        color: hsla(0,0%,100%,0.9);
+    }
+
+    .description {
+        font-size: 17.5px;
+        text-align: justify;
+        color: hsla(0,0%,100%,0.9);
+    }
 }
