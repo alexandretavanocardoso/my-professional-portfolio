@@ -1,4 +1,5 @@
 @import '@/assets/scss/_bodyText.scss';
+@import '@/assets/scss/_colors.scss';
 
 .div-main {
     display: flex;
@@ -12,12 +13,13 @@
         width: 350px;
         height: 200px;
     
-        margin-top: $marginDefault + 25px;    
+        margin-top: $marginDefault;    
+        margin-bottom: $marginDefault;    
         padding: 15px;
     
         text-align: center;
 
-        color: $backgroundcolorDefault;
+        color: $colorDefaultDark;
 
         -webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.75);

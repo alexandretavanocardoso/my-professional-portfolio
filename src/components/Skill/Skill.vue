@@ -4,6 +4,7 @@
             <div class="col-md-3 card-skill">
                 <img :src="skill.img"/>
                 <h4>{{skill.title}}</h4>
+                <p>{{skill.categoria}}</p>
             </div>
         </div>
     </div>
@@ -16,59 +17,73 @@ export default {
         skills: [
             {
                 img: 'https://img.icons8.com/color/144/000000/vue-js.png',
-                title: 'Vuejs'
+                title: 'Vuejs',
+                categoria: 'Frontend'
             },
             {
                 img: 'https://img.icons8.com/color/144/000000/html-5--v1.png',
-                title: 'Html'
+                title: 'Html',
+                categoria: 'Frontend'
             },
             {
                 img: 'https://img.icons8.com/color/144/000000/sass.png',
-                title: 'Sass'
+                title: 'Sass',
+                categoria: 'Frontend'
             },
             {
                 img: 'https://img.icons8.com/color/144/7950F2/css3.png',
-                title: 'Css'
+                title: 'Css',
+                categoria: 'Frontend'
             },
             {
                 img: 'https://img.icons8.com/color/144/000000/javascript--v1.png',
-                title: 'Javascript'
+                title: 'Javascript',
+                categoria: 'Frontend'
             },
             {
                 img: 'https://img.icons8.com/ios-filled/100/000000/jquery.png',
-                title: 'Jquery'
+                title: 'Jquery',
+                categoria: 'Frontend'
             },
             {
                 img: 'https://img.icons8.com/ios-filled/150/000000/c-sharp-logo.png',
-                title: 'C#'
+                title: 'C#',
+                categoria: 'Backend'
             },
             {
                 img: 'https://img.icons8.com/color/144/000000/net-framework.png',
-                title: '.Net Core'
+                title: '.Net Core',
+                categoria: 'Backend'
             },
             {
                 img: 'https://img.icons8.com/dotty/100/000000/sql.png',
-                title: 'Sql Server'
+                title: 'Sql Server',
+                categoria: 'Backend'
             },
             {
                 img: 'https://img.icons8.com/ios-glyphs/240/000000/github.png',
-                title: 'Github'
+                title: 'Github',
+                categoria: 'Versionamento'
             },
             {
                 img: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/000000/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-color-tal-revivo.png',
-                title: 'BitBucket'
+                title: 'BitBucket',
+                categoria: 'Versionamento'
             },
             {
                 img: 'https://img.icons8.com/color/144/000000/heroku.png',
-                title: 'Heroku'
+                title: 'Heroku',
+                categoria: 'Hospedagem'
             },
             {
                 img: 'https://img.icons8.com/fluency/100/000000/sprint-iteration.png',
-                title: 'Scrum'
+                title: 'Scrum',
+                categoria: 'Métodos Ágeis'
             },
             {
                 img: 'https://img.icons8.com/external-flaticons-flat-flat-icons/100/000000/external-kanban-project-management-flaticons-flat-flat-icons-2.png',
-                title: 'Kanban'
+                title: 'Kanban',
+                categoria: 'Métodos Ágeis'
             }
         ]
     })

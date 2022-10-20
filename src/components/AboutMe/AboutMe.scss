@@ -1,4 +1,5 @@
 @import '@/assets/scss/_bodyText.scss';
+@import '@/assets/scss/_colors.scss';
 
 .card-background {
     padding: 25px;
@@ -10,16 +11,16 @@
         font-weight: bold;
         margin-bottom: $marginDefault;
         font-size: 30px;
-        color: $backgroundcolorDefault;
+        color: $colorDefaultDark;
     }
 
     .description {
         font-size: 17.5px;
         text-align: justify;
-        color: $backgroundcolorDefault;
+        color: $colorDefaultDark;
     }
 
-    .about2{
+    .about2 {
         display: flex;
         justify-content: space-around;
         margin-top: 40px;
@@ -27,15 +28,21 @@
         div {
             text-align: center;
 
-            img{
+            img {
                 width: 80px;
                 height: 80px;
             }
-    
+
             h4 {
                 margin-top: 8px;
-                color: $backgroundcolorDefault;
+                color: $colorDefaultDark;
             }
         }
+    }
+}
+
+@media (max-width: 800px) {
+    .card-background {
+        margin-top: 50px;
     }
 }

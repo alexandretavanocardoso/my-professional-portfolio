@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(92, 92, 92, 0.9);">
         <div class="container-fluid">
             <a class="navbar-brand text-white" href="#" @click="navigateNextPage('AboutMeComponent')">💻 ALEXANDRE TAVANO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

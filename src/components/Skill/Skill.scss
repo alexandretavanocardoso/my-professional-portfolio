@@ -10,8 +10,8 @@
 }
 
 .card-skill {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 
     text-align: center;
 
@@ -20,9 +20,9 @@
     justify-content: center;
     align-items: center;
 
-    -webkit-box-shadow: -4px 2px 25px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 2px 25px -2px rgba(0,0,0,0.75);
-    box-shadow: -4px 2px 25px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 2px 25px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 2px 25px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 2px 25px -2px rgba(0, 0, 0, 0.75);
 
     border-radius: 15px;
 
@@ -39,5 +39,10 @@
         font-size: 20px;
 
         margin-top: $marginDefault;
+    }
+
+    p {
+        margin-top: 8px;
+        text-decoration: underline;
     }
 }
