@@ -1,0 +1,23 @@
+@import '@/assets/scss/_bodyText.scss';
+@import '@/assets/scss/_colors.scss';
+
+.mt-top {
+    margin-top: $margin120;
+
+    h3 {
+        text-align: center;
+        color: $colorDefaultDark;
+
+        margin-bottom: $margin50;
+    }
+}
+
+@media (max-width: 800px) {
+    .mt-top {
+        margin-top: $margin50;
+    
+        h3 {
+            margin-bottom: $margin50;
+        }
+    }
+}

@@ -1,10 +1,13 @@
 <template>
-    <div class="div-main">
-        <div class="row" v-for="(skill, index) in skills" :key="index">
-            <div class="col-md-3 card-skill">
-                <img :src="skill.img"/>
-                <h4>{{skill.title}}</h4>
-                <p>{{skill.categoria}}</p>
+    <div class="mt-top">
+        <h3>Habilidades em desenvolvimento</h3>
+        <div class="div-main">
+            <div class="row" v-for="(skill, index) in skills" :key="index">
+                <div class="col-md-3 card-skill">
+                    <img :src="skill.img" />
+                    <h4>{{skill.title}}</h4>
+                    <p>{{skill.categoria}}</p>
+                </div>
             </div>
         </div>
     </div>
@@ -89,5 +92,7 @@ export default {
     })
 }
 </script>
+
+
 
 <style src="./Skill.scss" lang="scss" scoped />

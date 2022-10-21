@@ -17,3 +17,8 @@ REPOSITORYS
 
 https://dashboard.heroku.com/apps/alexandre-tavano-cardoso/deploy/heroku-git
 https://github.com/alexandretavanocardoso/my-professional-portfolio
+
+
+@media (max-width: 800px) {
+
+}
