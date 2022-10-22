@@ -1,6 +1,10 @@
 @import '@/assets/scss/_bodyText.scss';
 @import '@/assets/scss/_colors.scss';
 
+ul{
+    list-style: none;
+}
+
 .mt-top {
     margin-top: $margin120;
 
