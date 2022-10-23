@@ -3,7 +3,7 @@
         <h3>Sobre mim</h3>
         <div class="row card-background">
             <div class="col-md-12">
-                <h2 class="title">Alexandre Tavano Cardoso</h2>
+                <h2 class="title">Alexandre Tavano Cardoso </h2>
                 <p class="description">
                     Me chamo Alexandre Tavano Cardoso, tenho 20 anos, atualmente sou desenvolvedor fullstack, estou
                     sempre
@@ -14,7 +14,9 @@
                     <b>Github: </b><a href="https://github.com/alexandretavanocardoso" target="_blank"
                         rel="noopener noreferrer">Meu Github</a> <br />
                     <b>Linkedin: </b><a href="https://www.linkedin.com/in/alexandretavano/" target="_blank"
-                        rel="noopener noreferrer">Meu Linkedin</a>
+                        rel="noopener noreferrer">Meu Linkedin</a> <br /> <br />
+
+                    <a style="display: none;" class="btn btn-primary" href="./Profile.pdf" download="Profile">Download CV</a>
                 </p>
 
                 <div class="about2">
@@ -44,5 +46,9 @@ export default {
     }
 }
 </script>
+
+
+
+
 
 <style src="./AboutMe.scss" lang="scss" scoped />

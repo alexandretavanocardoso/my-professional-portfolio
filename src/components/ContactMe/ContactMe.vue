@@ -53,14 +53,4 @@ export default {
 }
 </script>
 
-
-
-
-
-
-
-
-
-
-
 <style src="./ContactMe.scss" lang="scss" scoped />

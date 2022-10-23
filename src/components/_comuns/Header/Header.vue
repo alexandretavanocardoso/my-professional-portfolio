@@ -21,6 +21,10 @@
                             href="#">Projetos</a>
                     </li>
                     <li class="nav-item">
+                        <a @click="navigateNextPage('CourseComponent')" class="nav-link text-white"
+                            href="#">Cursos</a>
+                    </li>
+                    <li class="nav-item">
                         <a @click="navigateNextPage('FormationAcademicComponent')" class="nav-link text-white"
                             href="#">Formação Acadêmica</a>
                     </li>

@@ -17,6 +17,7 @@ import HeaderComponent from '@/components/_comuns/Header/Header.vue'
 import AboutMeComponent from '@/components/AboutMe/AboutMe.vue'
 import SkillComponent from '@/components/Skill/Skill.vue'
 import ProjectComponent from '@/components/Project/Project.vue'
+import CourseComponent from '@/components/Courses/Course.vue'
 import FormationAcademicComponent from '@/components/FormationAcademic/FormationAcademic.vue'
 import ContactMeComponent from '@/components/ContactMe/ContactMe.vue'
 
@@ -30,6 +31,7 @@ export default {
         AboutMeComponent,
         SkillComponent,
         ProjectComponent,
+        CourseComponent,
         FormationAcademicComponent,
         ContactMeComponent
     }
