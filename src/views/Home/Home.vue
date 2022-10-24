@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import CurriculumComponent from '@/components/Curriculum/Curriculum.vue'
 import HeaderComponent from '@/components/_comuns/Header/Header.vue'
 import AboutMeComponent from '@/components/AboutMe/AboutMe.vue'
 import SkillComponent from '@/components/Skill/Skill.vue'
@@ -27,6 +28,7 @@ export default {
         navigatePage: "AboutMeComponent"
     }),
     components: {
+        CurriculumComponent,
         HeaderComponent,
         AboutMeComponent,
         SkillComponent,

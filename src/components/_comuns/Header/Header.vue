@@ -12,6 +12,10 @@
                         <a @click="navigateNextPage('AboutMeComponent')" class="nav-link text-white" aria-current="page"
                             href="#">Sobre mim</a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a @click="navigateNextPage('CurriculumComponent')" class="nav-link text-white" aria-current="page"
+                            href="#">Currículo</a>
+                    </li> -->
                     <li class="nav-item">
                         <a @click="navigateNextPage('SkillComponent')" class="nav-link text-white"
                             href="#">Habilidades</a>
@@ -26,7 +30,7 @@
                     </li>
                     <li class="nav-item">
                         <a @click="navigateNextPage('FormationAcademicComponent')" class="nav-link text-white"
-                            href="#">Formação Acadêmica</a>
+                            href="#">Formação-Acadêmica</a>
                     </li>
                     <li class="nav-item">
                         <a @click="navigateNextPage('ContactMeComponent')" class="nav-link text-white"

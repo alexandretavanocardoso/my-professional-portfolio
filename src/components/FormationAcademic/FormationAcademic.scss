@@ -1,27 +1,20 @@
-@import '@/assets/scss/_bodyText.scss';
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_mixins.scss';
+@import '@/assets/scss/_variables.scss';
 
 ul{
     list-style: none;
 }
 
 .mt-top {
-    margin-top: $margin120;
-
-    h3 {
-        text-align: center;
-        color: $colorDefaultDark;
-
-        margin-bottom: $margin50;
-    }
+    @include margin-top-title-120;
 }
 
 @media (max-width: 800px) {
     .mt-top {
-        margin-top: $margin50;
-    
+        @include margin-top-title-50-800px;
+
         h3 {
-            margin-bottom: $margin50;
+            margin-bottom: $margin35;
         }
     }
 }

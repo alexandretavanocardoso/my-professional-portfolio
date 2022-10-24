@@ -1,15 +1,8 @@
-@import '@/assets/scss/_bodyText.scss';
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_mixins.scss';
+@import '@/assets/scss/_variables.scss';
 
 .mt-top{
-    margin-top: $margin120;
-
-    h3{
-        text-align: center;
-        color: $colorDefaultDark;
-
-        margin-bottom: $margin50;
-    }
+    @include margin-top-title-120;
 }
 
 .div-main {
@@ -113,11 +106,7 @@
     }
 
     .mt-top{
-        margin-top: $margin50;
-
-        h3{
-            margin-bottom: 0px;
-        }
+        @include margin-top-title-50-800px
     }
 
     .div-addres {

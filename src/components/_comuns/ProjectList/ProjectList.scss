@@ -1,11 +1,8 @@
-@import '@/assets/scss/_bodyText.scss';
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_mixins.scss';
+@import '@/assets/scss/_variables.scss';
 
 .div-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include display-flex2;
 
     .card-project{
         width: 350px;

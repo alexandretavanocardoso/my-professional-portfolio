@@ -1,13 +1,10 @@
-@import '@/assets/scss/_bodyText.scss';
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_mixins.scss';
+@import '@/assets/scss/_variables.scss';
 
-.mt-top{
-    margin-top: $margin50;
+.mt-top {
+    @include margin-top-title-50;
 
-    h3{
-        text-align: center;
-        color: $colorDefaultDark;
-
+    h3 {
         margin-bottom: $margin50;
     }
 }

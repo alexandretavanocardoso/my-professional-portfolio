@@ -1,19 +1,10 @@
-@import '@/assets/scss/_bodyText.scss';
-@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_mixins.scss';
+@import '@/assets/scss/_variables.scss';
 
 .mt-top {
-    margin-top: $margin50;
-
-    h3 {
-        text-align: center;
-        color: $colorDefaultDark;
-    }
+    @include margin-top-title-50;
 }
 
 .div-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-bottom: $margin50;
+    @include display-flex1;
 }
