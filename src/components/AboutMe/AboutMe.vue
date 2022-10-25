@@ -14,12 +14,23 @@
                         buscando aprimorar meus conhecimentos e métodos para melhorar minha performance e minhas
                         habilidades,
                         visando um código limpo e com qualidade. <br /><br />
-
-                        <b>Github: </b><a href="https://github.com/alexandretavanocardoso" target="_blank"
-                            rel="noopener noreferrer">Meu Github</a> <br />
-                        <b>Linkedin: </b><a href="https://www.linkedin.com/in/alexandretavano/" target="_blank"
-                            rel="noopener noreferrer">Meu Linkedin</a> <br /> <br />
                     </p>
+
+                    <div class="links">
+                        <p>
+                            <b>Github: </b><a href="https://github.com/alexandretavanocardoso" target="_blank"
+                                rel="noopener noreferrer">Meu Github</a>
+                        </p>
+                        <p>
+                            <b>Linkedin: </b><a href="https://www.linkedin.com/in/alexandretavano/" target="_blank"
+                                rel="noopener noreferrer">Meu Linkedin</a>
+                        </p>
+                        <p>
+                            <b>Currículo: </b><a target="_blank"
+                                href="https://drive.google.com/drive/folders/1ivepsfjxWz6GagIJMTOTE9dw85ok02Xa">Meu
+                                Currículo</a>
+                        </p>
+                    </div>
 
                     <div class="about2">
                         <div>
@@ -49,6 +60,22 @@ export default {
     }
 }
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
