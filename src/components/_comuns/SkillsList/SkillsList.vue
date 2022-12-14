@@ -17,7 +17,7 @@ export default {
         skills: [
             {
                 img: 'https://img.icons8.com/color/144/000000/vue-js.png',
-                title: 'Vuejs',
+                title: 'Vue.js',
                 categoria: 'Frontend'
             },
             {
@@ -69,11 +69,6 @@ export default {
                 img: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/000000/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-color-tal-revivo.png',
                 title: 'BitBucket',
                 categoria: 'Versionamento'
-            },
-            {
-                img: 'https://img.icons8.com/color/144/000000/heroku.png',
-                title: 'Heroku',
-                categoria: 'Hospedagem'
             },
             {
                 img: 'https://img.icons8.com/fluency/100/000000/sprint-iteration.png',
