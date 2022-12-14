@@ -18,9 +18,6 @@ npm run lint - Lints and fixes files
 <li>Javascript</li>
 <li>Sass / Scss</li>
 
-### Languages backend used
-<li>Node.js / Express</li>
-
 ### Versioning and hosting used
 <li>Github</li>
-<li>Heroku</li>
+<li>Firebase</li>
